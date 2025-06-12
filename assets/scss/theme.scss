@@ -77,3 +77,39 @@
 // -----------------------------------------------------------------------------
 
 @import "layouts/layouts"; // 1
+
+/**/
+.ct-orderItems-images{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+}
+.ct-order-items{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: auto;
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    border-radius: 12px;
+    gap: 10px;
+    width: 30%;
+
+    .account-product-figure{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+
+        &:after{
+            display: none;
+        }
+    }
+}
